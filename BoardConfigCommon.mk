@@ -56,6 +56,13 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 WITH_DEXPREOPT := true
 WITH_DEXPREOPT_PIC := true
 
+# Optimizations
+CLANG_O3 := true
+STRICT_ALIASING := false
+KRAIT_TUNINGS := false
+GRAPHITE_OPTS := false
+ENABLE_GCCONLY := true
+
 # Wi-Fi
 BOARD_WLAN_DEVICE                := bcmdhd
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
